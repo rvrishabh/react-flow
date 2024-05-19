@@ -2,7 +2,7 @@ import {
   ArrowLeftIcon,
   ChatBubbleBottomCenterTextIcon,
 } from "@heroicons/react/24/outline";
-import React, { useState } from "react";
+import React from "react";
 
 const SideBar = (props: any) => {
   const { handleLabelChange, selectedNode, nodeLabel, setSelectedNode } = props;

@@ -74,7 +74,7 @@ export default function App() {
   };
 
   // Handle node selection
-  const onNodeSelected = useCallback((event: React.MouseEvent, node: any) => {
+  const onNodeSelected = useCallback((node: any) => {
     setSelectedNode(node);
     setNodeLabel(node.data.label as string);
   }, []);
